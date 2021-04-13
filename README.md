@@ -1,5 +1,5 @@
 # Projekt 3 - K Means Clustering
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/K-Means-Clustering/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/K-Means-Clustering/master?filepath=K%20Means%20Clustering%20-%20Projekt%203.ipynb)
 
 **Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
 -> %conda install pandas 
