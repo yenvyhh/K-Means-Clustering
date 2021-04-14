@@ -1,33 +1,6 @@
 # Projekt 3 - K Means Clustering
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/K-Means-Clustering/main?filepath=K%20Means%20Clustering%20-%20Projekt%203.ipynb)
 
-**Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
--> %conda install pandas 
--> %conda install numpy
--> %conda install sqlalchemy 
--> %conda install lxml
--> %conda install openpyxl 
--> %conda install xlrd 
--> %conda install matplotlib 
--> %conda install seaborn 
--> %conda install scikit-learn - sklearn
---> %conda install pydot
---> %conda install graphviz
---> %pip install pydot
---> %pip install graphviz
---> %pip install six
-
-**Zu Beginn des Notebooks, werden die installierten Librarys wie folgt importiert:**
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-%matplotlib inline
-
-from sklearn.cluster import KMeans
-from sklearn.metrics import classification_reports,confusion_matrix
-
-
 **Die Daten importieren,als DataFrame abspeichern und das Head anzeigen lassen:**
 df = pd.read_csv("College_Data",index_col=0) 
 df.head()
