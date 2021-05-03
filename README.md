@@ -1,6 +1,8 @@
 # Projekt 3 - K Means Clustering
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/K-Means-Clustering/main?filepath=K%20Means%20Clustering%20-%20Projekt%203.ipynb)
 
+**Zu Beginn bitte unter "Cell" -> "Run All" auswählen.**
+
 **Die Daten importieren,als DataFrame abspeichern und das Head anzeigen lassen:**
 df = pd.read_csv("College_Data",index_col=0) 
 df.head()
